@@ -4,6 +4,7 @@
   margin-right: auto;
   width: 40%;
   position: relative;
+
 }
 
 #myVideo {
@@ -16,9 +17,7 @@
 }
 
 /* -------------------------------- 
-
 Primary style
-
 -------------------------------- */
 html * {
   -webkit-font-smoothing: antialiased;
@@ -52,9 +51,7 @@ img {
 }
 
 /* -------------------------------- 
-
 Modules - reusable parts of our design
-
 -------------------------------- */
 .cd-img-replace {
   /* replace text with a background-image */
@@ -65,9 +62,7 @@ Modules - reusable parts of our design
 }
 
 /* -------------------------------- 
-
 Main components 
-
 -------------------------------- */
 .cd-section {
   min-height: 100%;
