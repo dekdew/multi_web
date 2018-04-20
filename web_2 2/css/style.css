@@ -12,25 +12,25 @@
   bottom: 0;
   min-width: 100%; 
   min-height: 100%;
-  opacity: .5;
+  opacity: .7;
 }
 
 .icn img {
-  height: 3em;
+  height: 5em;
   display: block;
   margin: auto;
   margin-bottom: 1em;
-  transition: all .1s;
-}
-
-.icn img:hover {
-  height: 4em;
 }
 
 .icn a {
   font-size: 25px;
   color: #bda3ad;
   font-weight: bold;
+  transition: all .1s;
+}
+
+.icn a:hover {
+  filter:hue-rotate(90deg);
 }
 
 .grid-container {
@@ -185,7 +185,7 @@ Main components
 
 .no-touch #cd-vertical-nav {
   position: fixed;
-  left: 40px;
+  right: 40px;
   top: 50%;
   bottom: auto;
   -webkit-transform: translateY(-50%);
@@ -196,7 +196,7 @@ Main components
   z-index: 1;
 }
 .no-touch #cd-vertical-nav li {
-  text-align: left;
+  text-align: right;
 }
 .no-touch #cd-vertical-nav a {
   display: inline-block;
@@ -210,7 +210,7 @@ Main components
   clear: both;
 }
 .no-touch #cd-vertical-nav a span {
-  float: left;
+  float: right;
   display: inline-block;
   -webkit-transform: scale(0.6);
   -moz-transform: scale(0.6);
